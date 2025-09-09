@@ -1,0 +1,2 @@
+#!/bin/bash
+python3 "/Users/friedricht/Library/Mobile Documents/com~apple~CloudDocs/Documents/Schule/HWR/WiSe 25/Agile Methoden/http-tool/main.py" "$@"
