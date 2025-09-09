@@ -8,7 +8,6 @@ A command-line interface tool for looking up and managing HTTP status codes and 
 - Add custom descriptions for status codes
 - Reset custom descriptions to default
 - List all available HTTP status codes
-- Interactive mode for easy exploration
 - Shell completion support
 
 ## Installation
@@ -89,22 +88,6 @@ python main.py list
 # Show help
 python main.py --help
 ```
-
-### Interactive Mode
-
-```bash
-# Start interactive mode
-python main.py interactive
-```
-
-In interactive mode, you can:
-- Enter a status code to look it up
-- Type `set <code> <description>` to set a custom description
-- Type `reset <code>` to reset a custom description
-- Type `reset-all` to reset all custom descriptions
-- Type `list` to see all available codes
-- Type `help` for available commands
-- Type `exit` to quit
 
 ## Configuration
 
